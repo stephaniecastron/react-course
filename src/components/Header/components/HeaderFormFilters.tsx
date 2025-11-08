@@ -4,12 +4,10 @@ import SelectorOption from '../../Selector/SelectorOption';
 import { cidades } from './HeaderFormFilters.model';
 
 const HeaderFormFilters = () => {
-    
-
     return (
         <form>
             <SelectorGroup id="cidade" icon={<FaLocationDot />}>
-                <SelectorOption value='' label="Selecione a cidade" />
+                <SelectorOption value="" label="Selecione a cidade" />
                 {cidades.map((cidade) => {
                     return (
                         <SelectorOption

@@ -1,3 +1,1 @@
-export type LinkProps = {
-    
-}
+export type LinkProps = {};

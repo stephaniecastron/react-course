@@ -1,10 +1,10 @@
-import React from "react";
-import styles from "./InputText.module.css";
+import React from 'react';
+import styles from './InputText.module.css';
 
 const InputText = ({
-  ...props
+    ...props
 }: React.InputHTMLAttributes<HTMLInputElement>) => {
-  return <input className={styles.input} {...props} />;
+    return <input className={styles.input} {...props} />;
 };
 
 export default InputText;

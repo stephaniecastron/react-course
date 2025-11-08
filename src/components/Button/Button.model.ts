@@ -1,3 +1,3 @@
 export type ButtonProps = {
-    variant: 'default' | 'icon';    
+    variant: 'default' | 'icon';
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;

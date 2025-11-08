@@ -1,3 +1,3 @@
 export type FieldsetProps = {
-  variant?: "primary" | "secondary";
+    variant?: 'primary' | 'secondary';
 } & React.FieldsetHTMLAttributes<HTMLFieldSetElement>;
