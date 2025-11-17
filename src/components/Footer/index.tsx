@@ -1,8 +1,8 @@
-import FooterInfo from './FooterInfo'
-import FooterLogo from './FooterLogo'
-import styles from './Footer.module.css'
-import FooterInstitutional from './FooterInstitutional'
-import FooterRede from './FooterRede'
+import FooterInfo from "./FooterInfo";
+import FooterLogo from "./FooterLogo";
+import styles from "./Footer.module.css";
+import FooterSocial from "./FooterSocial";
+import FooterInstitucional from "./FooterInstitucional";
 
 const Footer = () => {
   return (
@@ -10,11 +10,11 @@ const Footer = () => {
       <div className={styles.rodape_informacoes}>
         <FooterLogo />
         <FooterInfo />
-        <FooterInstitutional />
-        <FooterRede />
+        <FooterInstitucional />
+        <FooterSocial />
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
